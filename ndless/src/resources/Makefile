@@ -8,7 +8,7 @@ GENZEHN = genzehn
 
 GCCFLAGS = -Wall -Wextra -W -marm
 LDFLAGS = -Wl,-e,main,--gc-sections
-ZEHNFLAGS = --name "ndless_resources" --include-bss --uses-lcd-blit true --version 2020
+ZEHNFLAGS = --name "ndless_resources" --include-bss --uses-lcd-blit true --version 2021
 
 ifeq ($(DEBUG),FALSE)
 	GCCFLAGS += -Os
